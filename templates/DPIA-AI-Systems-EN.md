@@ -1,5 +1,5 @@
 # Data Protection Impact Assessment (DPIA) for AI Systems
-### GDPR Art. 35 × EU AI Act Art. 9 — Combined Template
+### GDPR Art. 35 × EU AI Act Art. 9 - Combined Template
 
 ---
 
@@ -16,7 +16,7 @@
 
 ## How to use this template
 
-Complete each section sequentially. Sections 3 and 6 are specific to AI systems and have no equivalent in a standard DPIA — do not skip them. Where a field does not apply, write N/A and briefly explain why.
+Complete each section sequentially. Sections 3 and 6 are specific to AI systems and have no equivalent in a standard DPIA - do not skip them. Where a field does not apply, write N/A and briefly explain why.
 
 A completed DPIA is a living document. Schedule a review whenever the AI system changes materially (new training data, new use case, new jurisdictions, new automated decisions).
 
@@ -36,18 +36,18 @@ Provide a plain-language description of the AI system: its purpose, how it works
 |-------|--------|
 | **Purpose(s) of processing** | |
 | **Legal basis (GDPR Art. 6)** | |
-| **Special category data? (Art. 9)** | Yes / No — if yes, which categories and additional legal basis: |
+| **Special category data? (Art. 9)** | Yes / No - if yes, which categories and additional legal basis: |
 | **Criminal data? (Art. 10)** | Yes / No |
 | **Estimated number of data subjects** | |
 | **Categories of data subjects** | (e.g., employees, customers, patients, minors) |
 | **Categories of personal data processed** | |
 | **Data sources** | (e.g., internal databases, third-party feeds, web scraping, user input) |
-| **Training data includes personal data?** | Yes / No — if yes, describe: |
+| **Training data includes personal data?** | Yes / No - if yes, describe: |
 | **Recipients / processors** | |
-| **Third-country transfers?** | Yes / No — if yes, transfer mechanism (SCCs, adequacy decision, BCRs): |
+| **Third-country transfers?** | Yes / No - if yes, transfer mechanism (SCCs, adequacy decision, BCRs): |
 | **Retention period (training data)** | |
 | **Retention period (outputs / logs)** | |
-| **Automated decision-making (Art. 22)?** | Yes / No — if yes, see Section 6.4 |
+| **Automated decision-making (Art. 22)?** | Yes / No - if yes, see Section 6.4 |
 
 ### 1.3 Stakeholders involved
 
@@ -62,13 +62,13 @@ Provide a plain-language description of the AI system: its purpose, how it works
 
 ---
 
-## Section 2 — AI Act Classification
+## Section 2 - AI Act Classification
 
 > **Why this section comes before risk assessment:** The AI Act risk tier determines the baseline obligations (Art. 9 risk management system, Art. 13 transparency, Art. 14 human oversight). Knowing the tier shapes what you must assess in Sections 4 and 5.
 
 ### 2.1 Prohibited practices check (Art. 5)
 
-Answer each question. If any answer is YES, **stop** — the system cannot be deployed under EU law.
+Answer each question. If any answer is YES, **stop** - the system cannot be deployed under EU law.
 
 | # | Question | Yes / No |
 |---|----------|----------|
@@ -80,7 +80,7 @@ Answer each question. If any answer is YES, **stop** — the system cannot be de
 | 6 | Does it use biometric categorisation to infer sensitive attributes (race, political opinion, sexual orientation)? | |
 | 7 | Does it create or expand facial recognition databases through untargeted scraping? | |
 
-**Result:** All No — proceed to 2.2. Any Yes — **system is prohibited under AI Act Art. 5. Do not deploy.**
+**Result:** All No - proceed to 2.2. Any Yes — **system is prohibited under AI Act Art. 5. Do not deploy.**
 
 ### 2.2 High-risk AI system check (Annex III)
 
@@ -109,7 +109,7 @@ If not in scope: determine limited-risk or minimal-risk below.
 |------|----------|-------------|
 | **Unacceptable risk** | Meets any Art. 5 prohibited practice | |
 | **High risk** | Listed in Annex III or Annex II | |
-| **Limited risk** | Interacts with humans (chatbot), generates synthetic content — transparency obligations apply (Art. 50) | |
+| **Limited risk** | Interacts with humans (chatbot), generates synthetic content - transparency obligations apply (Art. 50) | |
 | **Minimal risk** | None of the above | |
 
 **Final AI Act tier:** _______________
@@ -131,7 +131,7 @@ If not in scope: determine limited-risk or minimal-risk below.
 
 ---
 
-## Section 3 — Necessity & Proportionality
+## Section 3 - Necessity & Proportionality
 
 *GDPR Art. 35(7)(b) requires assessing "the necessity and proportionality of the processing operations in relation to the purposes."*
 
@@ -163,7 +163,7 @@ Describe specific measures taken to reduce data collected, retained, or shared:
 
 ---
 
-## Section 4 — Risk Assessment
+## Section 4 - Risk Assessment
 
 ### 4.1 Risk identification
 
@@ -183,19 +183,19 @@ For each risk, assess likelihood (1–3) and severity (1–3). Risk score = like
 
 **Likelihood scale:** 1 = Remote, 2 = Possible, 3 = Likely  
 **Severity scale:** 1 = Minor inconvenience, 2 = Significant impact, 3 = Severe / irreversible harm  
-**Score:** 1–3 Low, 4–6 Medium, 7–9 High
+**Score:** 1-3 Low, 4-6 Medium, 7-9 High
 
 ### 4.2 Risk threshold
 
 | Score range | Level | Action |
 |-------------|-------|--------|
-| 1–3 | Low | Accept with standard controls |
-| 4–6 | Medium | Mitigate before deployment |
-| 7–9 | High | Mitigate; if residual risk remains high → prior consultation (Art. 36) |
+| 1-3 | Low | Accept with standard controls |
+| 4-6 | Medium | Mitigate before deployment |
+| 7-9 | High | Mitigate; if residual risk remains high -> prior consultation (Art. 36) |
 
 ---
 
-## Section 5 — AI-Specific Risk Assessment
+## Section 5 - AI-Specific Risk Assessment
 
 *These risks are not covered by standard DPIA templates. They are specific to AI systems and required under AI Act Art. 9.*
 
@@ -263,7 +263,7 @@ For each risk, assess likelihood (1–3) and severity (1–3). Risk score = like
 
 ---
 
-## Section 6 — Measures to Address Risks
+## Section 6 -- Measures to Address Risks
 
 ### 6.1 Technical measures
 
@@ -315,11 +315,11 @@ For each risk, assess likelihood (1–3) and severity (1–3). Risk score = like
 
 **Overall residual risk level:** Low / Medium / High
 
-If any residual risk remains **High** → prior consultation with supervisory authority required (GDPR Art. 36). Go to Section 8.
+If any residual risk remains **High** -> prior consultation with supervisory authority required (GDPR Art. 36). Go to Section 8.
 
 ---
 
-## Section 7 — DPO & Stakeholder Consultation
+## Section 7 - DPO & Stakeholder Consultation
 
 *GDPR Art. 35(2) requires seeking the advice of the DPO. Art. 35(9) requires seeking the views of data subjects where appropriate.*
 
@@ -330,7 +330,7 @@ If any residual risk remains **High** → prior consultation with supervisory au
 | DPO consulted on (date): | |
 | DPO opinion summary: | |
 | DPO recommendations: | |
-| Recommendations implemented: | Yes / No / Partial — explain: |
+| Recommendations implemented: | Yes / No / Partial - explain: |
 | DPO signature: | |
 
 ### 7.2 Data subject consultation
@@ -354,7 +354,7 @@ If any residual risk remains **High** → prior consultation with supervisory au
 
 ---
 
-## Section 8 — Prior Consultation (Art. 36)
+## Section 8 - Prior Consultation (Art. 36)
 
 *Complete only if residual risk in Section 6.4 is HIGH.*
 
@@ -368,7 +368,7 @@ If any residual risk remains **High** → prior consultation with supervisory au
 
 ---
 
-## Section 9 — Sign-off & Review Schedule
+## Section 9 - Sign-off & Review Schedule
 
 ### 9.1 Approval
 
@@ -403,7 +403,7 @@ This DPIA must be reviewed if any of the following occur:
 
 ---
 
-## Annex A — Regulatory Cross-Reference
+## Annex A - Regulatory Cross-Reference
 
 | Obligation | GDPR | EU AI Act |
 |-----------|------|-----------|
@@ -418,13 +418,13 @@ This DPIA must be reviewed if any of the following occur:
 | Prior consultation (supervisory authority) | Art. 36 | Art. 9(9) |
 | Post-market monitoring | — | Art. 72 |
 
-## Annex B — Glossary
+## Annex B - Glossary
 
 | Term | Definition |
 |------|-----------|
 | AI system | A machine-based system designed to operate with varying levels of autonomy that generates outputs such as predictions, recommendations, decisions, or content (EU AI Act Art. 3(1)) |
 | High-risk AI system | An AI system listed in Annex III of the EU AI Act, or used as safety component of a product listed in Annex II |
-| DPIA | Data Protection Impact Assessment — systematic analysis of processing likely to result in high risk (GDPR Art. 35) |
+| DPIA | Data Protection Impact Assessment - systematic analysis of processing likely to result in high risk (GDPR Art. 35) |
 | Profiling | Any form of automated processing of personal data to evaluate personal aspects (GDPR Art. 4(4)) |
 | Solely automated decision | A decision based exclusively on automated processing, without meaningful human involvement (GDPR Art. 22) |
 | Prior consultation | Mandatory consultation of the supervisory authority before processing where residual risk remains high after mitigation (GDPR Art. 36) |
@@ -432,6 +432,6 @@ This DPIA must be reviewed if any of the following occur:
 
 ---
 
-*Template version 1.0 — June 2026*  
+*Template version 1.0 - June 2026*  
 *Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*  
 *Source: [github.com/deepal-khatri/dpia-ai-template](https://github.com/deepal-khatri/dpia-ai-template)*
