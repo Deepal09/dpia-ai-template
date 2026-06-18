@@ -1,0 +1,17 @@
+Contributing
+Issues and pull requests welcome.
+What's useful
+Sector-specific annexes (healthcare, HR, finance, public sector)
+Additional language versions
+Updates as AI Act delegated acts and CNIL guidance are published
+Anonymised real-world test cases showing how the template was applied
+Guidelines
+Keep the template practical. Every question should have a concrete answer in a real project.
+Do not add questions that duplicate GDPR Art. 35 obligations that are already covered.
+Regulatory references must cite the exact article. Do not paraphrase obligations.
+French and English versions must stay in sync.
+Opening an issue
+Use issues to report gaps, outdated references, or structural problems.
+Describe the specific section and the regulatory basis for the proposed change.
+Pull requests
+Small, focused PRs are easiest to review. One logical change per PR.
